@@ -1,14 +1,14 @@
 # Title
-Simple (or clever and funny?) description
+A chatbot that can talk with the user.
 ## Table of Contents
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
 ## Background
-This is why this application exists.
+This is my qualifier project for the Code2College Elite 101 course.
 ## Install
-These are the steps to setup your local environment to run this
-application.
+This system uses python 3.8.2.
 ## Usage
-These are the steps to use the application or interact with it.
-### Any optional sections
+This systems reacts based on the sentence stem that has been inputted by the user. 
+
+If the user enters something that is not in the format of a set stem, the bot will ask the user to re-enter their message.
