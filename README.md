@@ -5,7 +5,7 @@ A chatbot that can talk with the user.
 - [Install](#install)
 - [Usage](#usage)
 ## Background
-This is my qualifier project for the Code2College Elite 101 course.
+This is my qualifier project for the Code2College Elite 101 course. I chose the third option of "chatbot".
 ## Install
 This system uses python 3.8.2.
 ## Usage
