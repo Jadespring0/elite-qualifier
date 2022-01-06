@@ -12,3 +12,10 @@ This system uses python 3.8.2.
 This systems reacts based on the sentence stem that has been inputted by the user. 
 
 If the user enters something that is not in the format of a set stem, the bot will ask the user to re-enter their message.
+
+## Test Plan
+
+To test the project:
+
+1.  Run the test
+2.  Check the results
