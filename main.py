@@ -5,7 +5,7 @@ from nltk.chat.util import Chat, reflections
 pairs = [
   [
     "my name is (.*)",
-    ["Hello %1, how are you today?"]
+    ["Hello %1, how are you today? (You can say 'quit' at any time to end the chat.)"]
   ],
   [
     "hi|hey|hello|yo",
@@ -24,7 +24,7 @@ pairs = [
     ["Its alright","Its okay, never mind"]
   ],
   [
-    "i am fine|i'm fine(.*)",
+    "i am fine|i'm fine(.*)|fine(.*)",
     ["Great to hear that! How can I help you?"]
   ],
   [
