@@ -16,7 +16,11 @@ pairs = [
     ["I'm doing good!", "Better now that you're here!"]
   ],
   [
-    "sorry(.*)",
+    "are you sure(.*) ?|you sure(.*) ?|you positive(.*) ?",
+    ["I...think so?"]
+  ],
+  [
+    "sorry(.*)|i'm sorry(.*)",
     ["Its alright","Its okay, never mind"]
   ],
   [
@@ -24,11 +28,11 @@ pairs = [
     ["Great to hear that! How can I help you?"]
   ],
   [
-    "i'm (.*)doing good|i'm good(.*)|i am good(.*)|i am doing good(.*)",
+    "i'm (.*)doing good|i'm good(.*)|i am good(.*)|i am doing good(.*)|good(.*)",
     ["Nice to hear that! How can I help you?"]
   ],
   [
-    "i'm (.*)doing bad|i'm bad(.*)|i am sad|i'm sad(.*)",
+    "i'm (.*)doing bad|i'm bad(.*)|bad(.*)|i am sad|i'm sad(.*)|sad(.*)",
     ["I'm sorry to hear that... How can I help you?"]
   ],
   [
@@ -41,7 +45,7 @@ pairs = [
   ],
   [
     "do you like (.*)",
-    ["Yes, I love that!", "I can't say I do...", "Maybe?", "I need to do a bit more research first..."]
+    ["Yes, I love that!", "I can't say I do...", "Maybe?", "I need to do a bit more research on that first..."]
   ],
   [
     "i love (.*)",
@@ -97,7 +101,7 @@ pairs = [
   ],
   [
     "quit",
-    ["Bye, take care!", "It was nice talking to you!", "Have a wonderful day!", "Alright, lets chat again sometime!", "Okay, have a wonderful day!"]
+    ["Bye, take care!", "It was nice talking to you!", "Have a wonderful day!", "Alright, let's chat again sometime!", "Okay, have a wonderful day!"]
   ],
 ]
 
